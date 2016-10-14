@@ -8,7 +8,7 @@ $().ready(function(){
 
 	var anagram = function(word1, word2) {
 		// TODO actual implementation
-		return word1 == reverse(word2);
+		return word1.toLowerCase() == reverse(word2.toLowerCase());
 	};
 
 	$("input").change(function()
